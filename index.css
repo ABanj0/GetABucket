@@ -1,0 +1,71 @@
+/**/
+.navbar-nav {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: 212529;
+}
+
+/*Order Navbar*/
+.nav-item{
+    float: left;
+}
+
+#navbar {min-width:300px;}
+
+
+/*background for navbar items*/
+.nav-item:hover{
+    background-color: black;
+}
+
+/*color of navbar buttons*/
+.nav-link{
+    color: black;
+    font-size: 24px;
+}
+
+/* Background Image */
+body {
+    background-image: url('image\ 1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+/* Tiitle Sizes */
+.navbar-brand{
+font-size: 24px;
+}
+/* Background Title Color */
+.navbar-brand:hover{
+    background-color: black;
+}
+
+.container{
+    padding-bottom: -50px;
+    padding-top: -50px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+.Main-Title-Text{
+    position: absolute;
+    top: 15%;
+    right: 65%;
+}
+
+.serviceImage1{
+    border-radius: 15px;
+    padding: 5px; 
+    width: 300px;
+    height: 500px; 
+}
+
